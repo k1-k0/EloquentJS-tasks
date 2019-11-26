@@ -5,7 +5,7 @@ class Group {
 
     add(member) {
         if(!this.container.includes(member)) {
-            this.container = this.container.push(member);
+            this.container.push(member);
         }
     }
 
